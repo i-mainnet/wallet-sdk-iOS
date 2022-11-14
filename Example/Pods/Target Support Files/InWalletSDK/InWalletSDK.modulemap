@@ -1,0 +1,6 @@
+framework module InWalletSDK {
+  umbrella header "InWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

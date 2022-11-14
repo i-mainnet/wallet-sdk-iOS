@@ -1,0 +1,27 @@
+{
+  "name": "InWalletSDK",
+  "version": "0.1.0",
+  "swift_versions": "4.2",
+  "summary": "SDK for iOS that connect In Wallet App to dApp.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jinsikhan/InWalletSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "In Wallet",
+  "source": {
+    "git": "https://github.com/jinsikhan/InWalletSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "InWalletSDK/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}

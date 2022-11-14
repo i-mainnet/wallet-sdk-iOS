@@ -15,6 +15,14 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8F7091F612186734465725AC /* Pods_InWalletSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF866DB1FE53A2298FF3FAC4 /* Pods_InWalletSDK_Tests.framework */; };
+		E34CE5DE29221B3500B14B89 /* SendLipcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5D629221B3400B14B89 /* SendLipcViewController.swift */; };
+		E34CE5DF29221B3500B14B89 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5D729221B3400B14B89 /* ContainerViewController.swift */; };
+		E34CE5E029221B3500B14B89 /* SendNFTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5D829221B3400B14B89 /* SendNFTViewController.swift */; };
+		E34CE5E129221B3500B14B89 /* ExecuteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5D929221B3400B14B89 /* ExecuteViewController.swift */; };
+		E34CE5E229221B3500B14B89 /* SendTokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5DA29221B3500B14B89 /* SendTokenViewController.swift */; };
+		E34CE5E329221B3500B14B89 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5DB29221B3500B14B89 /* AuthViewController.swift */; };
+		E34CE5E429221B3500B14B89 /* WActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5DC29221B3500B14B89 /* WActivityView.swift */; };
+		E34CE5E529221B3500B14B89 /* WUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34CE5DD29221B3500B14B89 /* WUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,11 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04BD36CB4DDD0C14D74FA3B1 /* InWalletSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = InWalletSDK.podspec; path = ../InWalletSDK.podspec; sourceTree = "<group>"; };
+		04BD36CB4DDD0C14D74FA3B1 /* InWalletSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InWalletSDK.podspec; path = ../InWalletSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1AEE8488DAAE897452ACD8E6 /* Pods-InWalletSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InWalletSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-InWalletSDK_Tests/Pods-InWalletSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1B4DBEAB57CB7EA67C3CC002 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1B4DBEAB57CB7EA67C3CC002 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4BA011BC422F397570C668A0 /* Pods_InWalletSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InWalletSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D1274249D2F51680138CBED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D1274249D2F51680138CBED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* InWalletSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InWalletSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +54,14 @@
 		7F15981EA9FBB5C362E75E7C /* Pods-InWalletSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InWalletSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-InWalletSDK_Example/Pods-InWalletSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA0456999C7CDFCD4EB55FA8 /* Pods-InWalletSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InWalletSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-InWalletSDK_Example/Pods-InWalletSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF866DB1FE53A2298FF3FAC4 /* Pods_InWalletSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InWalletSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34CE5D629221B3400B14B89 /* SendLipcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLipcViewController.swift; sourceTree = "<group>"; };
+		E34CE5D729221B3400B14B89 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		E34CE5D829221B3400B14B89 /* SendNFTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendNFTViewController.swift; sourceTree = "<group>"; };
+		E34CE5D929221B3400B14B89 /* ExecuteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecuteViewController.swift; sourceTree = "<group>"; };
+		E34CE5DA29221B3500B14B89 /* SendTokenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendTokenViewController.swift; sourceTree = "<group>"; };
+		E34CE5DB29221B3500B14B89 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		E34CE5DC29221B3500B14B89 /* WActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WActivityView.swift; sourceTree = "<group>"; };
+		E34CE5DD29221B3500B14B89 /* WUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUtils.swift; sourceTree = "<group>"; };
 		F8AF228FD2B00E14512900C7 /* Pods-InWalletSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InWalletSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-InWalletSDK_Tests/Pods-InWalletSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +111,14 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				E34CE5DB29221B3500B14B89 /* AuthViewController.swift */,
+				E34CE5D729221B3400B14B89 /* ContainerViewController.swift */,
+				E34CE5D929221B3400B14B89 /* ExecuteViewController.swift */,
+				E34CE5D829221B3400B14B89 /* SendNFTViewController.swift */,
+				E34CE5DA29221B3500B14B89 /* SendTokenViewController.swift */,
+				E34CE5D629221B3400B14B89 /* SendLipcViewController.swift */,
+				E34CE5DC29221B3500B14B89 /* WActivityView.swift */,
+				E34CE5DD29221B3500B14B89 /* WUtils.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +180,6 @@
 				F8AF228FD2B00E14512900C7 /* Pods-InWalletSDK_Tests.debug.xcconfig */,
 				1AEE8488DAAE897452ACD8E6 /* Pods-InWalletSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +251,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +294,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-InWalletSDK_Example/Pods-InWalletSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/InWalletSDK/InWalletSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InWalletSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,11 +336,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-InWalletSDK_Tests/Pods-InWalletSDK_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,8 +376,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34CE5E129221B3500B14B89 /* ExecuteViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				E34CE5DE29221B3500B14B89 /* SendLipcViewController.swift in Sources */,
+				E34CE5E229221B3500B14B89 /* SendTokenViewController.swift in Sources */,
+				E34CE5E429221B3500B14B89 /* WActivityView.swift in Sources */,
+				E34CE5E329221B3500B14B89 /* AuthViewController.swift in Sources */,
+				E34CE5E029221B3500B14B89 /* SendNFTViewController.swift in Sources */,
+				E34CE5DF29221B3500B14B89 /* ContainerViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E34CE5E529221B3500B14B89 /* WUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -498,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InWalletSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -513,6 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InWalletSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

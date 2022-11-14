@@ -1,13 +1,23 @@
-use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+def import_pods
+  pod 'Alamofire'
+end
 
 target 'InWalletSDK_Example' do
+  use_frameworks!
+  
+  import_pods
+  
   pod 'InWalletSDK', :path => '../'
 
   target 'InWalletSDK_Tests' do
     inherit! :search_paths
+    
+    import_pods
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end
